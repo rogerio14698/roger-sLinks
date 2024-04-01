@@ -1,0 +1,88 @@
+body {
+    background-color: $lila;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+
+    background-image: url(/src/img/fondo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 791px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 100px $blanco;
+
+    @include desktop {
+        width: 500px;
+    }
+
+    h1 {
+        font-family: $pixel;
+        margin: 0;
+        font-size: 45px;
+        color: $blanco;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $negro;
+    }
+
+    p {
+        font-family: $open;
+        font-size: 25px;
+        color: $blanco;
+    }
+
+
+
+    .card-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 180px;
+            height: 180px;
+            border-radius: 100%;
+        }
+    }
+
+    .card-links {
+        .card {
+            width: 350px;
+            justify-content: space-between;
+            margin: 15px;
+            background-color: $card;
+            border-radius: 10px;
+            padding: .5rem;
+            cursor: pointer;
+            box-shadow: .1rem .01rem .4rem $blanco;
+        }
+
+        p {
+            font-family: $pixel;
+            font-size: 1.8rem;
+            justify-content: start;
+            width: 10rem;
+        }
+
+        .card:hover {
+            background-color: $hover;
+        }
+
+        img {
+            width: 5rem;
+            height: 5rem;
+
+        }
+
+    }
+
+}

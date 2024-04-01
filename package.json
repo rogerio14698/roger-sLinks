@@ -1,0 +1,17 @@
+{
+  "name": "rogerlinks",
+  "version": "1.0.0",
+  "description": "Links",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rogerio Viana",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0"
+  }
+}

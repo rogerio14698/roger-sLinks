@@ -1,0 +1,17 @@
+.footer {
+    width: 370px;
+    background-color: $grisOscuro;
+    height: 50px;
+
+    @include desktop {
+        width: 500px;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-family: $pixel;
+        font-size: 20px;
+        color: $blanco;
+    }
+
+}
